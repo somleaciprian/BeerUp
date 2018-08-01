@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Beer Up</string>
+    <string name="settings_intro">Please fill out below fields for best values. The data will remain only on your phone and is used in calorie calculations.</string>
+    <string name="settings_button">Save</string>
+    <string name="settings_label_age">Age (years)</string>
+    <string name="settings_label_weight">Weight (Kg)</string>
 </resources>
