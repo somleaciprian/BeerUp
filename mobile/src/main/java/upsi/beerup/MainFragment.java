@@ -60,7 +60,10 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
     public void resetChronometer(){
         timeWhenStopped = 0;
+        chrono.stop();
         chrono.setBase(SystemClock.elapsedRealtime());
+        pause.hide();
+        start.show();
     }
 
     @Override
